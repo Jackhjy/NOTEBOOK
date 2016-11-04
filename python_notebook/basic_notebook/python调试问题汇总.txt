@@ -1,0 +1,8 @@
+/**问题1
+*时间：2016/03/13
+*问题：pip install SCons的时候出现一下问题：
+	error:
+	--single-version-externally-managed not recognized
+	ways:
+	原因是setuptools版本较低，解决问题的方法是pip install --egg SCons ，就添加了--egg选项
+*/
